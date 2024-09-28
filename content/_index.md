@@ -22,24 +22,22 @@ sections:
       css_class: dark
       background:
         color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+#        image:
+#          # Add your image background to `assets/media/`.
+#          filename: stacked-peaks.svg
+#          filters:
+#            brightness: 1.0
+#          size: cover
+#          position: center
+#          parallax: false
   - block: markdown
     content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I am a Bachelor's student in Computer Science and Engineering at the Delft University of Technology. My research interests include software engineering, machine learning, and the applicability of artificial intelligence to the process of engineering software. I am currently working on the applicability of large language models to code generation, summarization, completion, and understanding.
         
-        Please reach out to collaborate 😃
+        please feel free to reach out to me if you are interested in collaborating on research projects or if you would like to discuss any of my work.
     design:
       columns: '1'
   - block: collection
@@ -63,16 +61,16 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
+#  - block: collection
+#    id: talks
+#    content:
+#      title: Recent & Upcoming Talks
+#      filters:
+#        folders:
+#          - event
+#    design:
+#      view: article-grid
+#      columns: 1
   - block: collection
     id: news
     content:
